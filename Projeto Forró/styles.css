@@ -1,0 +1,79 @@
+body {
+    font-family: 'Sriracha', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.6;
+    color: #333;
+}
+
+.container {
+    width: 100%;
+    overflow: hidden;
+    border: 5px solid #000; /* Contorno preto ao redor do container */
+}
+
+header {
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-family: 'Passion One', sans-serif;
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.estrofe, .parallax .content {
+    padding: 20px;
+    text-align: center;
+    margin: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.parallax {
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.parallax:nth-child(2) {
+    background-image: url('desafio001/imagens/background001.jpg'); /* Substitua pelo caminho da imagem */
+}
+
+.parallax .content {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 20px;
+    width: 80%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.estrofe:nth-child(4) {
+    background-image: url('desafio001/imagens/background002.jpg'); /* Substitua pelo caminho da imagem */
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+    padding: 100px 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    border: none;
+    box-shadow: none;
+    margin: 0;
+}
